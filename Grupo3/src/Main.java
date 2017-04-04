@@ -11,8 +11,12 @@ public class Main {
         
         System.out.println("Alvaroffssfsfewefwsegundamodicif");
         
+<<<<<<< HEAD
         
         //ALVARO
+=======
+        //otro dia la misma mierda
+>>>>>>> refs/remotes/origin/master
         
     }
 
