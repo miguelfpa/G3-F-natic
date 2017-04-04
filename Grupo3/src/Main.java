@@ -5,7 +5,7 @@ public class Main {
         
         System.out.println("Alvaro");
         
-        System.out.println("Miguel2");
+        System.out.println("Miguel");
 
         
     }
