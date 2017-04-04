@@ -7,11 +7,7 @@ public class Main {
         
         System.out.println("Miguel");
         
-        /*Ultima modificacion
-         * 
-         * System.out.println("Alvaro");
-         */
-
+        // Prueba 
         
     }
 
