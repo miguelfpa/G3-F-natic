@@ -9,18 +9,10 @@ public class Main {
         
         // Prueba f´natic
         
-        System.out.println("Alvaroffssfsfewefwsegundamodicif");
+        System.out.println("CONFLICTIVO");
         
         
-        //ALVARO
-
-
-        
-        
-        //Carlos
-        
-        //otro dia la misma mierda
-
+      
         
     }
 
