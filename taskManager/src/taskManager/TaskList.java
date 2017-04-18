@@ -67,6 +67,16 @@ public class TaskList {
             return false;
         }
     }
+    
+    /**
+     * Remove the task at the index.
+      * @param index
+     */
+    public void removeTask(int index){
+        if ( correctIndex(index)){
+            tasks.remove(index);
+        }
+    }
 }
 
     
