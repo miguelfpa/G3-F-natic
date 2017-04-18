@@ -55,6 +55,18 @@ public class TaskList {
         }
     }
     /**
+     * Remove last task of the list
+     */
+    public void removeLastTask(){
+        int lastIndex = tasks.size() - 1;
+
+        if (!tasks.isEmpty()){
+            tasks.remove(lastIndex);
+        }else {
+            System.out.println("Lista vacía");
+        }
+    }
+    /**
      * Check if the index parameter id correct (with the current ArratList size)
      *
      * @param index
