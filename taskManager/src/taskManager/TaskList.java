@@ -77,6 +77,23 @@ public class TaskList {
             tasks.remove(index);
         }
     }
+    /**
+     * Show the task as a numbered list.
+     */
+    public void showTasks(){
+        int i =1;
+        System.out.println("Lista de Tareas:");
+        System.out.println("================");
+        if (tasks.isEmpty()){
+            System.out.println("No hay tareas.");
+        }else{
+            for (Task task: tasks){
+                System.out.println( i + " - " + task.getDescription() );
+                i++;
+            }
+        }
+    }
+    
 }
 
     
