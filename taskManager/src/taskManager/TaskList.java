@@ -54,3 +54,19 @@ public class TaskList {
             System.out.println("No hay nada que borrar.");
         }
     }
+    /**
+     * Check if the index parameter id correct (with the current ArratList size)
+     *
+     * @param index
+     * @return
+     */
+    public boolean correctIndex(int index){
+        if( index>=0 && index < this.tasks.size()){
+            return true;
+        }else {
+            return false;
+        }
+    }
+}
+
+    
