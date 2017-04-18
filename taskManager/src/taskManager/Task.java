@@ -70,4 +70,15 @@ public class Task {
     public void setComplete(boolean complete) {
         this.complete = complete;
     }
+    
+  //toSTRING
+    @Override
+    public String toString() {
+        return "Task{" +
+                "description='" + description + '\'' +
+                ", dueDate=" + dueDate +
+                ", priority=" + priority +
+                ", complete=" + complete +
+                '}';
+    }
 }
