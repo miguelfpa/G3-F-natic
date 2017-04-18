@@ -1,4 +1,4 @@
-package com.company.model;
+package taskManager;
 
 import java.util.ArrayList;
 

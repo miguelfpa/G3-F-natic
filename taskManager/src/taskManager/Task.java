@@ -1,5 +1,7 @@
 package taskManager;
 
+import java.util.Date;
+
 public class Task {
 
 	//ATRIBUTOS
