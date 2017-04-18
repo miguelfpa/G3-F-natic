@@ -42,3 +42,15 @@ public class TaskList {
             System.out.println("Indice malo");
         }
     }
+    
+    /**
+     * Remove the first task of the list
+     */
+    public void removeFirstTask(){
+        if (!tasks.isEmpty()) {
+            tasks.remove(0);
+        }else{
+            System.out.println("Lista Vacia.");
+            System.out.println("No hay nada que borrar.");
+        }
+    }
