@@ -7,22 +7,22 @@ public class Task {
 	//ATRIBUTOS
 
     /**
-     * Task description
+     * <h4>Descripcion de Task<h4>
      */
     private String description;
     /**
-     * Due date of the task
+     * <h4>Fecha del task<h4>
      */
     private Date dueDate;
     /**
-     * Priority of the task
-     * 1. Low
-     * 2.Medium
-     * 3.Higher
+     * <h4>Prioridad<h4>
+     * <h4>1.Bajo<h4>
+     * <h4>2.Medio<h4>
+     * <h4>3.Alto<h4>
      */
     private int priority;
     /**
-     * True if the task is completed
+     * <h4>Si el task esta completo<h4>
      */
     private boolean complete;
     
