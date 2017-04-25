@@ -10,14 +10,14 @@ public class TaskList {
     private ArrayList<Task> tasks;
 
     /**
-     * Create an instance of a new Task Array List.
+     * <h4>Create an instance of a new Task Array List.</h4>
      */
     public TaskList() {
         this.tasks = new ArrayList<Task>();
     }
 
     /**
-     * Add a new task to the list.
+     * <h4>Add a new task to the list.</h4>
      *
      * @param task A task type.
      */
@@ -28,10 +28,10 @@ public class TaskList {
     }
 
     /**
-     * Add a new task at the index.
+     * <h4>Add a new task at the index.</h4>
      *
-     * @param index
-     * @param task
+     * @param index index es el index de orden de la tasklist
+     * @param task son las tareas de la tasklist.
      */
     public void addTask(int index, Task task){
         if (task != null && correctIndex(index) ){
@@ -44,7 +44,7 @@ public class TaskList {
     }
     
     /**
-     * Remove the first task of the list
+     * <h4>Remove the first task of the list</h4>
      */
     public void removeFirstTask(){
         if (!tasks.isEmpty()) {
@@ -55,7 +55,7 @@ public class TaskList {
         }
     }
     /**
-     * Remove last task of the list
+     * <h4>Remove last task of the list</h4>
      */
     public void removeLastTask(){
         int lastIndex = tasks.size() - 1;
@@ -67,10 +67,11 @@ public class TaskList {
         }
     }
     /**
-     * Check if the index parameter id correct (with the current ArratList size)
+     * <h4>CorrectIndex</h4>
+     * <b>Check if the index parameter id correct (with the current ArratList size)</b>
      *
-     * @param index
-     * @return
+     * @param index index es el index de orden de la tasklist
+     * @return devolvemos si el index esta contenido en el arraylist.
      */
     public boolean correctIndex(int index){
         if( index>=0 && index < this.tasks.size()){
@@ -81,8 +82,8 @@ public class TaskList {
     }
     
     /**
-     * Remove the task at the index.
-      * @param index
+     * <h4>Remove the task at the index.</h4>
+      * @param index es el index de orden de la tasklist
      */
     public void removeTask(int index){
         if ( correctIndex(index)){
@@ -90,7 +91,7 @@ public class TaskList {
         }
     }
     /**
-     * Show the task as a numbered list.
+     * <h4>Show the task as a numbered list.</h4>
      */
     public void showTasks(){
         int i =1;
