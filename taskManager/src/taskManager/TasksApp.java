@@ -78,7 +78,7 @@ public class TasksApp {
 
 /**
  * Show the different options of the menu
- * @return
+ * @return option
  */
     public int showMenu(){
         Scanner scanner = new Scanner(System.in);
