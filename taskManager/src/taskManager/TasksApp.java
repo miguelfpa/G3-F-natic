@@ -11,7 +11,10 @@ public class TasksApp {
         taskList = new TaskList();
     }
 
-
+    /**
+     * Method for control the App
+     * 
+     */
     public void startApp(){
         int option;
         while((option = showMenu()) != 0 ){
@@ -32,6 +35,11 @@ public class TasksApp {
             }
         }
     }
+    
+    /**
+     * Method that ask for the index
+     * @return index
+     */
 
     private int askIndex(){
         Scanner scanner = new Scanner(System.in);
@@ -44,6 +52,12 @@ public class TasksApp {
 
         return  index;
     }
+    
+    
+    /**
+     * Method that ask for a task
+     * @return new Task
+     */
     private Task askTask() {
         Scanner scanner = new Scanner(System.in);
         String description;
@@ -62,7 +76,10 @@ public class TasksApp {
         return  new Task(description, priority);
     }
 
-
+/**
+ * Show the different options of the menu
+ * @return
+ */
     public int showMenu(){
         Scanner scanner = new Scanner(System.in);
         int option;
