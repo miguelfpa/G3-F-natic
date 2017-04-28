@@ -16,7 +16,7 @@ public class Task {
      */
     private String description;
     /**
-     * <h4>Fecha de realizacion de la tarea<h4>
+     * <h4>Fecha de realizacion de la tarea creada<h4>
      * @author Alvaro
      */
     private Date dueDate;
