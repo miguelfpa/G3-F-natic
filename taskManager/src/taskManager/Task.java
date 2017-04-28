@@ -3,7 +3,7 @@ package taskManager;
 import java.util.Date;
 
 /**
- * En Task (tarea) encontramos los atributos y constructores de una tarea que más
+ * En Task ("tarea") encontramos los atributos y constructores de una tarea que más
  * tarde será usada en otras clases.
  * @author Alvaro
  *
