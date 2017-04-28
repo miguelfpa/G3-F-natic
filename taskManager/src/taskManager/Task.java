@@ -2,36 +2,56 @@ package taskManager;
 
 import java.util.Date;
 
+/**
+ * En Task (tarea) encontramos los atributos y constructores de una tarea que más
+ * tarde será usada en otras clases.
+ * @author Alvaro
+ *
+ */
 public class Task {
 
-	//ATRIBUTOS
-
     /**
-     * <h4>Descripcion de Task<h4>
+     * <h4>Descripcion de la tarea<h4>
+     * @author Alvaro
      */
     private String description;
     /**
-     * <h4>Fecha del task<h4>
+     * <h4>Fecha de realizacion de la tarea<h4>
+     * @author Alvaro
      */
     private Date dueDate;
     /**
-     * <h4>Prioridad<h4>
+     * <h4>Prioridad por importancia de la tarea. A mayor nivel, prioridad más alta<h4>
      * <h4>1.Bajo<h4>
      * <h4>2.Medio<h4>
      * <h4>3.Alto<h4>
+     * 
+     * @author Alvaro
      */
     private int priority;
     /**
-     * <h4>Si el task esta completo<h4>
+     * <h4>Atributo que indica si la tarea ha sido completada o no<h4>
+     * 
+     * @author Alvaro
      */
     private boolean complete;
     
-  //CONSTRUCTORES
 
+    /**
+     * Constructor vacio
+     * @author Alvaro
+     */
     public Task() {
 
     }
 
+    /**
+     * Constructor con parametros de descripcion y prioridad.
+     * @param description
+     * @param priority
+     * 
+     * @author Alvaro
+     */
     public Task(String description, int priority) {
         this.description = description;
         this.dueDate = new Date();
@@ -41,6 +61,13 @@ public class Task {
 
     //ACCESORES
 
+    
+    /**
+     * A continuacion presentamos los getters and setters de los atributos creados
+     * anteriormente
+     * @author Alvaro
+     * @return
+     */
     public String getDescription() {
         return description;
     }
@@ -74,6 +101,11 @@ public class Task {
     }
     
   //toSTRING
+    /**
+     * El metodo toString sobreescribe la clase Object y muestra una impresion
+     * con los atributos creados como descripcion, prioridad...
+     * @author Alvaro
+     */
     @Override
     public String toString() {
         return "Task{" +
